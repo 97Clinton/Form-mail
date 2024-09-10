@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    /* overflow-x: scroll; */
+    width: 100vw;
+    /* overflow-x: hidden; */
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #f9f9f9;
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 370px;
+    height: 450px;
+    padding-top: 40px;
+}
+
+.name, .email, .message, .btn {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+input {
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.btn {
+    display: flex;
+    align-items: flex-end;
+}
+button {
+    width: 100px;
+    padding: 6px 10px;
+    color: #2d2e32;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    background-color: #147efb;
+    border: 2px solid #f9f9f9;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #f9f9f9;
+    border: 2px solid #147efb;
+}

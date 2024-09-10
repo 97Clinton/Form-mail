@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,500;1,500&family=Poppins:wght@500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="submit">
+        <h2>Submit</h2>
+
+        <form id="shananaForm" action="/send-email" method="POST">
+            <div class="name">
+                <label for="name">Full Name: </label>
+                <input type="text" name="name" placeholder="Enter your full name" required>
+            </div>
+            <div class="email">
+                <label for="email">Email: </label>
+                <input type="email" name="email" placeholder="abcd@gmail.com" required>
+            </div>
+            <div class="message">
+                <label for="message">Message: </label>
+                <textarea name="message" placeholder="Message..." id="tArea" cols="37" rows="6" required></textarea>
+            </div>
+            <div class="btn">
+                <button type="submit">SEND</button>
+            </div>
+        </form>
+    </div>
+    
+
+    <!-- <script type="module" src="server.js"></script> -->
+</body>
+</html>
