@@ -34,7 +34,7 @@ app.post('/send-email', (req, res) => {
         service: 'gmail', 
         auth: {
             user: 'atayeroclinton.ac@gmail.com', // Your email address
-            pass: 'wifx phtk qfde svnv'   // Your email password or app-specific password
+            pass: ''   // Your email password or app-specific password
         }
     });
 
